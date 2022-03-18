@@ -1,0 +1,84 @@
+.well {
+    border: 1px dashed var(--border-color);
+    box-shadow: none;
+    padding: 19px;
+    border-radius: 0;
+    background-color: var(--primary-hover-color);
+}
+
+.well h2 {
+    margin: 0px;
+    padding-bottom: 10px;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+label, .checkbox label, .radio label {
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.form-horizontal {
+    display: block;
+    margin-top: 0em;
+    padding-top: 20px;
+}
+
+.form-horizontal legend {
+    font-size: 18px;
+    padding: 7px 0px;
+    border-color: var(--border-color);
+    border-style: dashed;
+    display: block;
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    line-height: inherit;
+    color: #333;
+    border: 0;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.form-horizontal .form-group {
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+.margin-bottom-20px {
+    margin-bottom: 20px;
+}
+
+.margin-bottom-10px {
+    display: block;
+    margin-bottom: 10px!important;
+}
+
+input[type=checkbox], input[type=radio] {
+    margin: 0 10px;
+    line-height: normal;
+}
+
+.centered {
+    display: flex;
+    justify-content: center;
+}
+
+.ReactCollapse--collapse {
+    transition: height 500ms;
+}
+
+@media (min-width: 768px) {
+    .form-horizontal .control-label {
+        padding-top: 7px;
+        margin-bottom: 0;
+        text-align: right;
+    }
+
+    .col-sm-2 {
+        width: 16.66666667%;
+    }
+
+    .col-sm-10 {
+        width: 83.33333333%;
+    }
+}

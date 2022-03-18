@@ -1,0 +1,17 @@
+.SearchResult{
+    position: absolute;
+    background-color:#ffffff;
+    width:530px;
+    height: auto;
+    z-index: 51;
+    top:50px;
+    
+}
+.SearchResult .dataItem {
+  width: 100%;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  color: black;
+  margin-left: 15px;
+}

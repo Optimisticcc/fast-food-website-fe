@@ -1,0 +1,106 @@
+.blog-category {
+    margin-bottom: 30px;
+}
+
+.blog-info .image {
+    overflow: hidden;
+    position: relative;
+}
+
+.blog-category .blog-img {
+    position: relative;
+    overflow: hidden;
+    display: block;
+}
+
+.banner-outer a img, .blog-block img {
+    width: 100%;
+    transition: all 350ms ease-out 0s;
+    -moz-transition: all 350ms ease-out 0s;
+    -o-transition: all 350ms ease-out 0s;
+    -webkit-transition: all 350ms ease-out 0s;
+}
+
+.zoom-post {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.5s ease 0s;
+    -moz-transition: all 0.5s ease 0s;
+    -webkit-transition: all 0.5s ease 0s;
+    -ms-transition: all 0.5s ease 0s;
+    -o-transition: all 0.5s ease 0s;
+}
+
+.block-date {
+    color: var(--primary-hover-color);
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    font-size: 16px;
+    padding: 15px 25px;
+    border-radius: 0px 25px 25px 0px;
+    background-color: var(--secondary-color);
+    margin: unset;
+}
+
+.caption.blog-description, .caption-blog.blog-block {
+    position: relative;
+    padding: 26px 30px 30px;
+    border: 1px dashed var(--border-color);
+}
+
+.blog-block h4 {
+    line-height: 20px;
+    font-size: 18px;
+    font-weight: 500;
+    text-transform: capitalize;
+    margin: 13px 0px 15px;
+}
+
+.blog-text {
+    color: var(--secondary-light-color);
+    line-height: 24px;
+    font-size: 16px;
+    margin: 0px 0px 27px;
+    text-align: justify;
+}
+
+.blog-read {
+    color: var(--primary-hover-color);
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 500;
+    padding: 10px 30px;
+    border-width: initial;
+    border-style: none;
+    border-color: initial;
+    border-image: initial;
+    border-radius: 20px;
+    background-color: var(--primary-color);
+}
+
+.blog-read:hover {
+    background: var(--secondary-color);
+    color: var(--primary-hover-color);
+}
+
+.limit-text-1line {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 1; /* number of lines to show */
+            line-clamp: 1; 
+    -webkit-box-orient: vertical;
+}
+
+@media (max-width: 767px) {
+    .banner-outer a img, .blog-block img {
+        width: 510px;
+    }
+}
